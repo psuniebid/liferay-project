@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.docs.code81.model.Employee">
+		<field name="uuid" type="String" />
+		<field name="employeeId" type="long" />
+		<field name="employeeName" type="String" />
+		<field name="departmentName" type="String" />
+		<field name="positionName" type="String" />
+		<field name="email" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,11 @@
+dependencies {
+	api project(":modules:employees:employees-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../employees-api/src/main/java"
+}
+
+group = "com.liferay.docs.code81"

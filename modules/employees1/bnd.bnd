@@ -1,0 +1,7 @@
+Bundle-Name: employees1
+Bundle-SymbolicName: com.liferay.docs.code81
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.code81.constants ,\
+                com.liferay.docs.code81.service ,\
+                com.liferay.docs.code81.model ,\
+                com.liferay.docs.code81.*

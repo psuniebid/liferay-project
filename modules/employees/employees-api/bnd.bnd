@@ -1,0 +1,10 @@
+Bundle-Name: employees-api
+Bundle-SymbolicName: com.liferay.docs.code81.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.docs.code81.exception,\
+	com.liferay.docs.code81.model,\
+	com.liferay.docs.code81.service,\
+	com.liferay.docs.code81.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employees-service/service.xml
